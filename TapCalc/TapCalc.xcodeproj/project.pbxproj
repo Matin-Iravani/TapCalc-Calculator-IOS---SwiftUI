@@ -14,6 +14,33 @@
 		E52007932CD332E6003AF68C /* TapCalcTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52007922CD332E6003AF68C /* TapCalcTests.swift */; };
 		E520079D2CD332E6003AF68C /* TapCalcUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E520079C2CD332E6003AF68C /* TapCalcUITests.swift */; };
 		E520079F2CD332E6003AF68C /* TapCalcUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E520079E2CD332E6003AF68C /* TapCalcUITestsLaunchTests.swift */; };
+		E52007AD2CD333A3003AF68C /* TitanOne-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E52007AC2CD333A3003AF68C /* TitanOne-Regular.ttf */; };
+		E52007AE2CD333A3003AF68C /* TitanOne-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E52007AC2CD333A3003AF68C /* TitanOne-Regular.ttf */; };
+		E52007AF2CD333A3003AF68C /* TitanOne-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E52007AC2CD333A3003AF68C /* TitanOne-Regular.ttf */; };
+		E52007B32CD3342B003AF68C /* MainModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52007B22CD3342B003AF68C /* MainModel.swift */; };
+		E52007B42CD3342B003AF68C /* MainModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52007B22CD3342B003AF68C /* MainModel.swift */; };
+		E52007B52CD3342B003AF68C /* MainModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52007B22CD3342B003AF68C /* MainModel.swift */; };
+		E52007B82CD3345B003AF68C /* Operations.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52007B72CD3345B003AF68C /* Operations.swift */; };
+		E52007B92CD3345B003AF68C /* Operations.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52007B72CD3345B003AF68C /* Operations.swift */; };
+		E52007BA2CD3345B003AF68C /* Operations.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52007B72CD3345B003AF68C /* Operations.swift */; };
+		E52007BC2CD3346B003AF68C /* DialPad.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52007BB2CD3346B003AF68C /* DialPad.swift */; };
+		E52007BD2CD3346B003AF68C /* DialPad.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52007BB2CD3346B003AF68C /* DialPad.swift */; };
+		E52007BE2CD3346B003AF68C /* DialPad.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52007BB2CD3346B003AF68C /* DialPad.swift */; };
+		E52007C12CD3349C003AF68C /* KeyPadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52007C02CD3349C003AF68C /* KeyPadView.swift */; };
+		E52007C22CD3349C003AF68C /* KeyPadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52007C02CD3349C003AF68C /* KeyPadView.swift */; };
+		E52007C32CD3349C003AF68C /* KeyPadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52007C02CD3349C003AF68C /* KeyPadView.swift */; };
+		E52007C52CD334B2003AF68C /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52007C42CD334B2003AF68C /* ButtonView.swift */; };
+		E52007C62CD334B2003AF68C /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52007C42CD334B2003AF68C /* ButtonView.swift */; };
+		E52007C72CD334B2003AF68C /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52007C42CD334B2003AF68C /* ButtonView.swift */; };
+		E52007C92CD334CF003AF68C /* CalculatorScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52007C82CD334CF003AF68C /* CalculatorScreenView.swift */; };
+		E52007CA2CD334CF003AF68C /* CalculatorScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52007C82CD334CF003AF68C /* CalculatorScreenView.swift */; };
+		E52007CB2CD334CF003AF68C /* CalculatorScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52007C82CD334CF003AF68C /* CalculatorScreenView.swift */; };
+		E52007CD2CD334EC003AF68C /* ScreenShapeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52007CC2CD334EC003AF68C /* ScreenShapeView.swift */; };
+		E52007CE2CD334EC003AF68C /* ScreenShapeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52007CC2CD334EC003AF68C /* ScreenShapeView.swift */; };
+		E52007CF2CD334EC003AF68C /* ScreenShapeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52007CC2CD334EC003AF68C /* ScreenShapeView.swift */; };
+		E52007D12CD33549003AF68C /* empty.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52007D02CD33549003AF68C /* empty.swift */; };
+		E52007D22CD33549003AF68C /* empty.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52007D02CD33549003AF68C /* empty.swift */; };
+		E52007D32CD33549003AF68C /* empty.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52007D02CD33549003AF68C /* empty.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +71,16 @@
 		E52007982CD332E6003AF68C /* TapCalcUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TapCalcUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E520079C2CD332E6003AF68C /* TapCalcUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapCalcUITests.swift; sourceTree = "<group>"; };
 		E520079E2CD332E6003AF68C /* TapCalcUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapCalcUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E52007AC2CD333A3003AF68C /* TitanOne-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TitanOne-Regular.ttf"; sourceTree = "<group>"; };
+		E52007B02CD333CB003AF68C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		E52007B22CD3342B003AF68C /* MainModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainModel.swift; sourceTree = "<group>"; };
+		E52007B72CD3345B003AF68C /* Operations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Operations.swift; sourceTree = "<group>"; };
+		E52007BB2CD3346B003AF68C /* DialPad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DialPad.swift; sourceTree = "<group>"; };
+		E52007C02CD3349C003AF68C /* KeyPadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyPadView.swift; sourceTree = "<group>"; };
+		E52007C42CD334B2003AF68C /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
+		E52007C82CD334CF003AF68C /* CalculatorScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorScreenView.swift; sourceTree = "<group>"; };
+		E52007CC2CD334EC003AF68C /* ScreenShapeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenShapeView.swift; sourceTree = "<group>"; };
+		E52007D02CD33549003AF68C /* empty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = empty.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +131,12 @@
 		E52007802CD332E5003AF68C /* TapCalc */ = {
 			isa = PBXGroup;
 			children = (
+				E52007B02CD333CB003AF68C /* Info.plist */,
+				E52007AB2CD33361003AF68C /* Fonts */,
+				E52007B12CD3340D003AF68C /* ViewModels */,
+				E52007B62CD33444003AF68C /* Models */,
+				E52007BF2CD3347E003AF68C /* Views */,
 				E52007812CD332E5003AF68C /* TapCalcApp.swift */,
-				E52007832CD332E5003AF68C /* ContentView.swift */,
 				E52007852CD332E6003AF68C /* Assets.xcassets */,
 				E52007872CD332E6003AF68C /* Preview Content */,
 			);
@@ -125,6 +166,44 @@
 				E520079E2CD332E6003AF68C /* TapCalcUITestsLaunchTests.swift */,
 			);
 			path = TapCalcUITests;
+			sourceTree = "<group>";
+		};
+		E52007AB2CD33361003AF68C /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				E52007AC2CD333A3003AF68C /* TitanOne-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		E52007B12CD3340D003AF68C /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				E52007B22CD3342B003AF68C /* MainModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		E52007B62CD33444003AF68C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E52007B72CD3345B003AF68C /* Operations.swift */,
+				E52007BB2CD3346B003AF68C /* DialPad.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E52007BF2CD3347E003AF68C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E52007C02CD3349C003AF68C /* KeyPadView.swift */,
+				E52007C42CD334B2003AF68C /* ButtonView.swift */,
+				E52007C82CD334CF003AF68C /* CalculatorScreenView.swift */,
+				E52007CC2CD334EC003AF68C /* ScreenShapeView.swift */,
+				E52007832CD332E5003AF68C /* ContentView.swift */,
+				E52007D02CD33549003AF68C /* empty.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,6 +311,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E52007892CD332E6003AF68C /* Preview Assets.xcassets in Resources */,
+				E52007AD2CD333A3003AF68C /* TitanOne-Regular.ttf in Resources */,
 				E52007862CD332E6003AF68C /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -240,6 +320,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E52007AE2CD333A3003AF68C /* TitanOne-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,6 +328,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E52007AF2CD333A3003AF68C /* TitanOne-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,7 +340,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				E52007842CD332E5003AF68C /* ContentView.swift in Sources */,
+				E52007D12CD33549003AF68C /* empty.swift in Sources */,
+				E52007CD2CD334EC003AF68C /* ScreenShapeView.swift in Sources */,
 				E52007822CD332E5003AF68C /* TapCalcApp.swift in Sources */,
+				E52007C92CD334CF003AF68C /* CalculatorScreenView.swift in Sources */,
+				E52007B32CD3342B003AF68C /* MainModel.swift in Sources */,
+				E52007B82CD3345B003AF68C /* Operations.swift in Sources */,
+				E52007C12CD3349C003AF68C /* KeyPadView.swift in Sources */,
+				E52007BC2CD3346B003AF68C /* DialPad.swift in Sources */,
+				E52007C52CD334B2003AF68C /* ButtonView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,7 +356,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E52007B92CD3345B003AF68C /* Operations.swift in Sources */,
+				E52007B42CD3342B003AF68C /* MainModel.swift in Sources */,
+				E52007CA2CD334CF003AF68C /* CalculatorScreenView.swift in Sources */,
+				E52007C62CD334B2003AF68C /* ButtonView.swift in Sources */,
+				E52007CE2CD334EC003AF68C /* ScreenShapeView.swift in Sources */,
+				E52007D22CD33549003AF68C /* empty.swift in Sources */,
+				E52007C22CD3349C003AF68C /* KeyPadView.swift in Sources */,
 				E52007932CD332E6003AF68C /* TapCalcTests.swift in Sources */,
+				E52007BD2CD3346B003AF68C /* DialPad.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,7 +373,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				E520079D2CD332E6003AF68C /* TapCalcUITests.swift in Sources */,
+				E52007D32CD33549003AF68C /* empty.swift in Sources */,
+				E52007CF2CD334EC003AF68C /* ScreenShapeView.swift in Sources */,
 				E520079F2CD332E6003AF68C /* TapCalcUITestsLaunchTests.swift in Sources */,
+				E52007CB2CD334CF003AF68C /* CalculatorScreenView.swift in Sources */,
+				E52007B52CD3342B003AF68C /* MainModel.swift in Sources */,
+				E52007BA2CD3345B003AF68C /* Operations.swift in Sources */,
+				E52007C32CD3349C003AF68C /* KeyPadView.swift in Sources */,
+				E52007BE2CD3346B003AF68C /* DialPad.swift in Sources */,
+				E52007C72CD334B2003AF68C /* ButtonView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,16 +531,17 @@
 				DEVELOPMENT_TEAM = MJX43B6NRW;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TapCalc/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = None.TapCalc;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -454,16 +561,17 @@
 				DEVELOPMENT_TEAM = MJX43B6NRW;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TapCalc/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 0.1;
 				PRODUCT_BUNDLE_IDENTIFIER = None.TapCalc;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;

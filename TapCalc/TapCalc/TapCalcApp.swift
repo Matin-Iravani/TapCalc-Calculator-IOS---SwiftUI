@@ -9,9 +9,13 @@ import SwiftUI
 
 @main
 struct TapCalcApp: App {
+    // Create an instance of MainModel
+    @StateObject private var mainModel = MainModel()
+    
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(mainModel) // Inject MainModel into the environment
         }
     }
 }
