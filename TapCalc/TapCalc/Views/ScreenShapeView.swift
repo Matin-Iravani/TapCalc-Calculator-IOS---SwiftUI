@@ -8,12 +8,16 @@
 import SwiftUI
 
 struct ScreenShape: View {
+    
+    @EnvironmentObject var colorModel: ColorThemeModel
+    
     var body: some View {
         ZStack {
             RoundedRectangle(cornerRadius: 20)
-                .fill(Color.indigo).opacity(0.1)
+                .fill(colorModel.screenBackground)
             RoundedRectangle(cornerRadius: 20)
                 .stroke(lineWidth: 4)
+                .foregroundStyle(colorModel.screenBorder)
         }
     }
 }
@@ -26,4 +30,5 @@ struct ScreenShapeShape: Shape {
 
 #Preview {
     ScreenShape()
+        .environmentObject(ColorThemeModel())
 }

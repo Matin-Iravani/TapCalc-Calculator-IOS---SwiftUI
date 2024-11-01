@@ -10,6 +10,8 @@ import SwiftUI
 struct CalculatorScreenView: View {
     
     @EnvironmentObject var mainModel: MainModel
+    @EnvironmentObject var colorModel: ColorThemeModel
+    
     let screenHeight: CGFloat
     let screenWidth: CGFloat
     
@@ -22,7 +24,7 @@ struct CalculatorScreenView: View {
     
     
     var body: some View {
-        
+        //hi
         ZStack {
             ScreenShape()
                 .background() {
@@ -31,10 +33,10 @@ struct CalculatorScreenView: View {
                         
                         Rectangle()
                             .frame(height: screenHeight/35)
-                            .foregroundStyle(Color.indigo).opacity(0.7)
+                            .foregroundStyle(colorModel.screenStripe1)
                         Rectangle()
                             .frame(height: screenHeight/35)
-                            .foregroundStyle(Color.orange)
+                            .foregroundStyle(colorModel.screenStripe2)
                     }
                     .clipShape(ScreenShapeShape())
                     
@@ -46,7 +48,7 @@ struct CalculatorScreenView: View {
                 HStack {
                     Spacer()
                     Text(self.mainModel.runningExpression)
-                        .foregroundStyle(Color(.label).opacity(0.5))
+                        .foregroundStyle(colorModel.calculatorRunningResultText)
                         .font(.custom("TitanOne", fixedSize: screenHeight/20))
                         .tracking(4)
                         .lineLimit(1)
@@ -61,10 +63,9 @@ struct CalculatorScreenView: View {
                 .frame(height: screenHeight/20)
                 
                 HStack {
-                    
                     Spacer()
                     Text(self.mainModel.result.isEmpty ? "0" : formatWithThousandsSeparator(self.mainModel.result) ?? "Error")
-                        .foregroundStyle(Color(.label))
+                        .foregroundStyle(colorModel.calculatorResultText)
                         .font(.custom("TitanOne", fixedSize: screenHeight/15))
                         .tracking(4)
                         .lineLimit(1)
@@ -86,7 +87,6 @@ struct CalculatorScreenView: View {
             .padding(.horizontal)
             .mask(ScreenShapeShape())
         }
-        
     }
 }
 
@@ -97,6 +97,7 @@ struct CalculatorScreenView: View {
         CalculatorScreenView(screenHeight: geometry.size.height, screenWidth: geometry.size.width)
             .padding()
             .environmentObject(MainModel())
+            .environmentObject(ColorThemeModel())
     }
     
     

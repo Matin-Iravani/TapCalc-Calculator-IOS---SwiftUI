@@ -20,9 +20,6 @@
 		E52007B32CD3342B003AF68C /* MainModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52007B22CD3342B003AF68C /* MainModel.swift */; };
 		E52007B42CD3342B003AF68C /* MainModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52007B22CD3342B003AF68C /* MainModel.swift */; };
 		E52007B52CD3342B003AF68C /* MainModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52007B22CD3342B003AF68C /* MainModel.swift */; };
-		E52007B82CD3345B003AF68C /* Operations.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52007B72CD3345B003AF68C /* Operations.swift */; };
-		E52007B92CD3345B003AF68C /* Operations.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52007B72CD3345B003AF68C /* Operations.swift */; };
-		E52007BA2CD3345B003AF68C /* Operations.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52007B72CD3345B003AF68C /* Operations.swift */; };
 		E52007BC2CD3346B003AF68C /* DialPad.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52007BB2CD3346B003AF68C /* DialPad.swift */; };
 		E52007BD2CD3346B003AF68C /* DialPad.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52007BB2CD3346B003AF68C /* DialPad.swift */; };
 		E52007BE2CD3346B003AF68C /* DialPad.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52007BB2CD3346B003AF68C /* DialPad.swift */; };
@@ -41,6 +38,18 @@
 		E52007D12CD33549003AF68C /* empty.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52007D02CD33549003AF68C /* empty.swift */; };
 		E52007D22CD33549003AF68C /* empty.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52007D02CD33549003AF68C /* empty.swift */; };
 		E52007D32CD33549003AF68C /* empty.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52007D02CD33549003AF68C /* empty.swift */; };
+		E52007D52CD4A3E8003AF68C /* ColorThemeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52007D42CD4A3E8003AF68C /* ColorThemeModel.swift */; };
+		E52007D62CD4A3E8003AF68C /* ColorThemeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52007D42CD4A3E8003AF68C /* ColorThemeModel.swift */; };
+		E52007D72CD4A3E8003AF68C /* ColorThemeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52007D42CD4A3E8003AF68C /* ColorThemeModel.swift */; };
+		E52007DD2CD5312B003AF68C /* ScrollingThemeSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52007DC2CD5312B003AF68C /* ScrollingThemeSelectionView.swift */; };
+		E52007DE2CD5312B003AF68C /* ScrollingThemeSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52007DC2CD5312B003AF68C /* ScrollingThemeSelectionView.swift */; };
+		E52007DF2CD5312B003AF68C /* ScrollingThemeSelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52007DC2CD5312B003AF68C /* ScrollingThemeSelectionView.swift */; };
+		E52007E12CD53637003AF68C /* Themes.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52007E02CD53637003AF68C /* Themes.swift */; };
+		E52007E22CD53637003AF68C /* Themes.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52007E02CD53637003AF68C /* Themes.swift */; };
+		E52007E32CD53637003AF68C /* Themes.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52007E02CD53637003AF68C /* Themes.swift */; };
+		E52007E52CD54D54003AF68C /* ThemeIconView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52007E42CD54D54003AF68C /* ThemeIconView.swift */; };
+		E52007E62CD54D54003AF68C /* ThemeIconView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52007E42CD54D54003AF68C /* ThemeIconView.swift */; };
+		E52007E72CD54D54003AF68C /* ThemeIconView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E52007E42CD54D54003AF68C /* ThemeIconView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,13 +83,16 @@
 		E52007AC2CD333A3003AF68C /* TitanOne-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TitanOne-Regular.ttf"; sourceTree = "<group>"; };
 		E52007B02CD333CB003AF68C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		E52007B22CD3342B003AF68C /* MainModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainModel.swift; sourceTree = "<group>"; };
-		E52007B72CD3345B003AF68C /* Operations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Operations.swift; sourceTree = "<group>"; };
 		E52007BB2CD3346B003AF68C /* DialPad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DialPad.swift; sourceTree = "<group>"; };
 		E52007C02CD3349C003AF68C /* KeyPadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyPadView.swift; sourceTree = "<group>"; };
 		E52007C42CD334B2003AF68C /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
 		E52007C82CD334CF003AF68C /* CalculatorScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorScreenView.swift; sourceTree = "<group>"; };
 		E52007CC2CD334EC003AF68C /* ScreenShapeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenShapeView.swift; sourceTree = "<group>"; };
 		E52007D02CD33549003AF68C /* empty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = empty.swift; sourceTree = "<group>"; };
+		E52007D42CD4A3E8003AF68C /* ColorThemeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorThemeModel.swift; sourceTree = "<group>"; };
+		E52007DC2CD5312B003AF68C /* ScrollingThemeSelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollingThemeSelectionView.swift; sourceTree = "<group>"; };
+		E52007E02CD53637003AF68C /* Themes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Themes.swift; sourceTree = "<group>"; };
+		E52007E42CD54D54003AF68C /* ThemeIconView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeIconView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -180,6 +192,7 @@
 			isa = PBXGroup;
 			children = (
 				E52007B22CD3342B003AF68C /* MainModel.swift */,
+				E52007D42CD4A3E8003AF68C /* ColorThemeModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -187,8 +200,8 @@
 		E52007B62CD33444003AF68C /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				E52007B72CD3345B003AF68C /* Operations.swift */,
 				E52007BB2CD3346B003AF68C /* DialPad.swift */,
+				E52007E02CD53637003AF68C /* Themes.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -202,6 +215,8 @@
 				E52007CC2CD334EC003AF68C /* ScreenShapeView.swift */,
 				E52007832CD332E5003AF68C /* ContentView.swift */,
 				E52007D02CD33549003AF68C /* empty.swift */,
+				E52007DC2CD5312B003AF68C /* ScrollingThemeSelectionView.swift */,
+				E52007E42CD54D54003AF68C /* ThemeIconView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -342,10 +357,13 @@
 				E52007842CD332E5003AF68C /* ContentView.swift in Sources */,
 				E52007D12CD33549003AF68C /* empty.swift in Sources */,
 				E52007CD2CD334EC003AF68C /* ScreenShapeView.swift in Sources */,
+				E52007DD2CD5312B003AF68C /* ScrollingThemeSelectionView.swift in Sources */,
 				E52007822CD332E5003AF68C /* TapCalcApp.swift in Sources */,
+				E52007E52CD54D54003AF68C /* ThemeIconView.swift in Sources */,
+				E52007D52CD4A3E8003AF68C /* ColorThemeModel.swift in Sources */,
 				E52007C92CD334CF003AF68C /* CalculatorScreenView.swift in Sources */,
 				E52007B32CD3342B003AF68C /* MainModel.swift in Sources */,
-				E52007B82CD3345B003AF68C /* Operations.swift in Sources */,
+				E52007E12CD53637003AF68C /* Themes.swift in Sources */,
 				E52007C12CD3349C003AF68C /* KeyPadView.swift in Sources */,
 				E52007BC2CD3346B003AF68C /* DialPad.swift in Sources */,
 				E52007C52CD334B2003AF68C /* ButtonView.swift in Sources */,
@@ -356,15 +374,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E52007B92CD3345B003AF68C /* Operations.swift in Sources */,
+				E52007E22CD53637003AF68C /* Themes.swift in Sources */,
+				E52007E62CD54D54003AF68C /* ThemeIconView.swift in Sources */,
 				E52007B42CD3342B003AF68C /* MainModel.swift in Sources */,
 				E52007CA2CD334CF003AF68C /* CalculatorScreenView.swift in Sources */,
+				E52007DE2CD5312B003AF68C /* ScrollingThemeSelectionView.swift in Sources */,
 				E52007C62CD334B2003AF68C /* ButtonView.swift in Sources */,
 				E52007CE2CD334EC003AF68C /* ScreenShapeView.swift in Sources */,
 				E52007D22CD33549003AF68C /* empty.swift in Sources */,
 				E52007C22CD3349C003AF68C /* KeyPadView.swift in Sources */,
 				E52007932CD332E6003AF68C /* TapCalcTests.swift in Sources */,
 				E52007BD2CD3346B003AF68C /* DialPad.swift in Sources */,
+				E52007D62CD4A3E8003AF68C /* ColorThemeModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -375,10 +396,13 @@
 				E520079D2CD332E6003AF68C /* TapCalcUITests.swift in Sources */,
 				E52007D32CD33549003AF68C /* empty.swift in Sources */,
 				E52007CF2CD334EC003AF68C /* ScreenShapeView.swift in Sources */,
+				E52007DF2CD5312B003AF68C /* ScrollingThemeSelectionView.swift in Sources */,
 				E520079F2CD332E6003AF68C /* TapCalcUITestsLaunchTests.swift in Sources */,
+				E52007E72CD54D54003AF68C /* ThemeIconView.swift in Sources */,
+				E52007D72CD4A3E8003AF68C /* ColorThemeModel.swift in Sources */,
 				E52007CB2CD334CF003AF68C /* CalculatorScreenView.swift in Sources */,
 				E52007B52CD3342B003AF68C /* MainModel.swift in Sources */,
-				E52007BA2CD3345B003AF68C /* Operations.swift in Sources */,
+				E52007E32CD53637003AF68C /* Themes.swift in Sources */,
 				E52007C32CD3349C003AF68C /* KeyPadView.swift in Sources */,
 				E52007BE2CD3346B003AF68C /* DialPad.swift in Sources */,
 				E52007C72CD334B2003AF68C /* ButtonView.swift in Sources */,

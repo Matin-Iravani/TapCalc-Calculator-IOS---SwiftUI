@@ -3,6 +3,8 @@ import SwiftUI
 struct ButtonView: View {
     
     @EnvironmentObject var mainModel: MainModel
+    @EnvironmentObject var colorModel: ColorThemeModel
+    
     let button: DialPad
     let textColor: Color
     let screenHeight: CGFloat
@@ -12,7 +14,7 @@ struct ButtonView: View {
             // Add any action needed when the button is tapped
             mainModel.doNextOperation(button: button) // Example if you want to set the operation
         } label: {
-            let currentColor = (mainModel.currentOperation.rawValue == button.rawValue) ? Color.orange.opacity(0.6) : Color.indigo.opacity(0.1)
+            let currentColor = (mainModel.currentOperation.rawValue == button.rawValue) ? colorModel.buttonTapedColor : colorModel.buttonColor
             RoundedRectangle(cornerRadius: 20)
                 .foregroundStyle(currentColor)
                 .overlay {
@@ -29,6 +31,7 @@ struct ButtonView: View {
         ButtonView(button: DialPad.add, textColor: Color(.label), screenHeight: geometry.size.height)
             //.frame(width: 70, height: 70)
             .environmentObject(MainModel())
+            .environmentObject(ColorThemeModel())
     }
     
 }

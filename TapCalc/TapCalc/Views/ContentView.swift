@@ -3,6 +3,8 @@ import AVFoundation
 
 struct ContentView: View {
     
+    @EnvironmentObject var colorModel: ColorThemeModel
+    
     @State private var currentPage = 0
     
     let generator2 = UIImpactFeedbackGenerator(style: .heavy)
@@ -19,7 +21,7 @@ struct ContentView: View {
                         KeyPadView(screenHeight: geometry.size.height, screenWidth: geometry.size.width)
                             .transition(currentPage == 0 ? .move(edge: .leading) : .move(edge: .trailing))
                     } else if currentPage == 1 {
-                        empty()
+                        ScrollingThemeSelectionView(screenWidth: geometry.size.width, screenHeight: geometry.size.height)
                             .transition(currentPage == 1 ? .move(edge: .trailing) : .move(edge: .leading))
                     }
                 }
@@ -29,7 +31,7 @@ struct ContentView: View {
                     DragGesture()
                 
                         .onEnded { value in
-                            let threshold: CGFloat = geometry.size.width/3 // Adjust sensitivity threshold
+                            let threshold: CGFloat = geometry.size.width/4 // Adjust sensitivity threshold
                             withAnimation {
                                 if value.translation.width > threshold && currentPage > 0 {
                                     generator2.impactOccurred()
@@ -52,12 +54,13 @@ struct ContentView: View {
                         .imageScale(.small)
                 }
                 .padding(.top, 40)
-                .foregroundStyle(Color.indigo)
+                .foregroundStyle(colorModel.tabViewSliderCircle)
                 .frame(height: 0)
             }
             .padding(.top)
             .padding(.bottom)
             .padding(.horizontal)
+            .background(colorModel.contentViewBackground)
         }
     }
 }
@@ -65,4 +68,5 @@ struct ContentView: View {
 #Preview {
     ContentView()
         .environmentObject(MainModel())
+        .environmentObject(ColorThemeModel())
 }
